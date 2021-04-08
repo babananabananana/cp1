@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.fullPage{
+  background-color: #DDD;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  font-family: 'Montserrat', sans-serif;  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  padding-bottom: 10px;
+  background-color: #C0C0C0;
+}
+.section img {
+  height:100%;
+}
+
+.menu {
+  height: 30px;
+}
+.newBook{
+  background-color: #202020;
+}
+
+
+.header {
+  height: 100%;
+  padding: 3px;
+  justify-content: space-between;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
+  background: #000000;
+}
+.home{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color:#800000; font-weight: bold; font-size: 15px;"
+}
+
+.navstuff{
+  background-color: #202020;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color:#800000 !important;
+  font-weight: bold; font-size: 20px;
+  margin: auto;
+}
+.navstuff a{
+  color:#800000 !important; font-weight: bold; font-size: 20px;
+}
+.navbar-brand a{
+  color:#800000 !important; font-weight: bold; font-size: 20px;
+
+}
+.bg-dark{
+  background-color: #202020 !important;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color:#800000; font-weight: bold; font-size: 20px;
+}
+
+.description{
+  height: 100%;
+  padding: 3%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  border: 5px solid #202020;
+  border-left-style: hidden;
+  border-right-width: 10px;
+  border-collapse: collapse;
+}
+
+.blog{
+  height: 200px;
+  font-weight: lighter;
+  border-bottom:8px solid #202020;
+  border-right: 10px solid #202020;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.side{
+  height: 100%;
+  width: 100%;
+  /* padding: 10px; */
+}
+.blogPic{
+  width: 33%;
+  background-color: #202020;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio{
+  height: 100%
+  border-top: 8px solid #202020;
+  border-right: 10px solid #202020;
+  border-bottom: 10px solid #202020;
+}
+.biopic {
+  background-color: #202020;
+  height: 50%;
+  width: 25%;
+  margin: 2%;
+  margin-right: 4%;
+}
+.biopic img {
+  border-radius: 4px;
+  border: 1px solid #101010;
+}
+.biography{
+  height: 100%;
+  width: 100%;
+}
+.biography h1{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color:#800000; font-weight: bold; font-size: 20px;"
+}
+.bookpic {
+  background-color: #202020;
+  height: 80%;
+  margin: 4%;
+}
+.bookpic img {
+  border-radius: 4px;
+  border: 1px solid #101010;
+}
+
+
+.outerbox{
+  height: 200px;
+  width: 100%;
+  background-color: #222222;
+
+}
+.newsletter {
+  border-radius: 2px;
+  text-align: left;
+  background-color: #80828C;
+  padding: 4px;
+  /* border: 1px solid #BBB; */
+}
+.newsletter p {
+  color: #202020;
+  font-weight: lighter;
+}
+#news {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color:#800000; font-weight: bold; font-size: 20px;"
+}
+
+.firstName{
+  padding: 2px;
+  height: 40px;
+  width: 203px;
+  border: 1px solid #111;
+  display: inline-block;
+}
+.lastName{
+  height: 40px;
+  padding: 2px;
+  width: 203px;
+  border: 1px solid #111;
+  display: inline-block;
+}
+.email{
+  height: 40px;
+  padding: 2px;
+  width: 410px;
+  border: 1px solid #111;
+}
+
+.newsletter p:hover{
+  color: #fff;
+}
+
+.booklist {
+  width: 100%;
+  background-color: #202020;
+  border-bottom: 4px solid #222222;
+}
+.booklist h1, h2{
+  text-align: center;
+  color:#800000; font-weight: bold;"
+}
+.art{
+  background-color: #202020;
+}
+.art h1, h2{
+  background-color: #202020;
+  text-align: center;
+  color:#800000; font-weight: bold;"
+  background-color: #202020;
+}
+
+/* button */
+.submit-button {
+  background-color: #D55C5F;
+}
+.submit-button:link,
+.submit-button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #fff;
+  font-weight: bold;
+  padding: 7px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 75px;
+  margin: 10px auto;
+}
+.submit-button:hover,
+.submit-button:visited:hover {
+  color:#FFF;
+  background-color: #76AEED;
+}
+.submit-button:active,
+.submit-button:visited:active{
+  color: #FFF;
+  background-color: #5995DA;
+}
+
+ul.photos li {
+  margin: 5px;
+  margin-left: 2%;
+  width: 29%;
+  display: inline-block;
+  text-align: center;
+  background-color: #EAEDF0;
+  font-family: "Times", Helvetica, sans-serif;
+  border-radius: 10px;
+  border-radius: 2px solid #585858;
+}
+
+ul.photos a {
+  font-family: "Times", Helvetica, sans-serif;
+}
+
+ul.bookPhotos img{
+  width: 100%;
+  object-fit: contain;
+}
+
+ul.bookPhotos li {
+  margin: 5px;
+  margin-left: 2%;
+  width: 21%;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  background-color: #EAEDF0;
+  font-family: "Times", Helvetica, sans-serif;
+  border-radius: 10px;
+  border-radius: 2px solid #585858;
+}
+
+
+ul.photos img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+
+@media only screen and (min-width:961px){
+  .page{
+    width: 960px;
+    margin: 0 auto;
+  }
+  .newBook{
+    height: 600px;
+  }
+  .navstuff, .navbar{
+    justify-content: center !important;
+    width: 960px !important;
+  }
+  .ui bookPhotos img {
+    height: 10px;
+    width: 10px;
+  }
+  .ui bookPhotos{
+    height: 10px;
+
+  }
+}
