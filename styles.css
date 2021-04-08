@@ -287,6 +287,16 @@ a:hover {
   text-decoration: underline;
 }
 
+.footer {
+  text-align: center;
+  height: 50px;
+}
+.footer img{
+  text-align: center;
+  height: 50px;
+  object-fit: contain;
+}
+
 
 @media only screen and (min-width:961px){
   .page{
