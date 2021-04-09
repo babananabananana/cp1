@@ -162,21 +162,21 @@
 .firstName{
   padding: 2px;
   height: 40px;
-  width: 203px;
+  width: 153px;
   border: 1px solid #111;
   display: inline-block;
 }
 .lastName{
   height: 40px;
   padding: 2px;
-  width: 203px;
+  width: 150px;
   border: 1px solid #111;
   display: inline-block;
 }
 .email{
   height: 40px;
   padding: 2px;
-  width: 410px;
+  width: 310px;
   border: 1px solid #111;
 }
 
